@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="clr_normal">#FF4E77F5</color>
+    <color name="clr_pressed">#FF8499DD</color>
+    <color name="clr_set">#FFF74160</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="title">#FF4E77F5</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="text_reaction">#FF353535</color>
+</resources>

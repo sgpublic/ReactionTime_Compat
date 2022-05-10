@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Reaction Time</string>
+    <string name="text_down">按下</string>
+    <string name="text_prepare">准备（按住）</string>
+    <string name="text_up">抬起！</string>
+    <string name="title_reaction_time">反应时间：%s</string>
+    <string name="text_reaction_time">%.3f 秒</string>
+    <string name="text_reaction_time_cheat">犯规</string>
+    <string name="text_best_note">最佳：%s</string>
+    <string name="text_reaction_time_empty">暂无记录</string>
+    <string name="text_times_count">次数：%d</string>
+    <string name="text_reset">重置</string>
+</resources>

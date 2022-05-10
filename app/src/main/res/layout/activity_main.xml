@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:id="@+id/main_touch"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@id/main_reaction_time"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/main_reaction_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_reaction"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@id/main_best_note"
+        app:layout_constraintTop_toBottomOf="@id/main_touch"/>
+
+    <TextView
+        android:id="@+id/main_best_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/main_times_count"
+        app:layout_constraintTop_toBottomOf="@id/main_reaction_time"/>
+
+    <TextView
+        android:id="@+id/main_times_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/main_reset"
+        app:layout_constraintTop_toBottomOf="@id/main_best_note"/>
+
+    <Button
+        android:id="@+id/main_reset"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_reset"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:background="@drawable/btn_select"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/main_times_count"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
